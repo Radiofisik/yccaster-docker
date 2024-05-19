@@ -1,6 +1,7 @@
 FROM ubuntu:24.04
 
 RUN mkdir /app
+RUN apt-get install -y wget
 
 WORKDIR /app
 
